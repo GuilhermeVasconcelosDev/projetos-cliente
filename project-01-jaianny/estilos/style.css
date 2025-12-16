@@ -2,7 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    list-style: none;
+    box-sizing: border-box;
 }
 
 :root{
@@ -11,6 +11,31 @@
     --cor03:#473221;
     --cor04:white;
     --cor05:black;
+}
+
+body,html {
+    background-color: var(--cor01);
+}
+a {
+    text-decoration: none;
+}
+header {
+    display: flex;
+    background-color: transparent;
+    justify-content: space-around;
+    
+       
+}
+nav {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    height: 50px;
+    align-items: center;   
+}
+nav > li {
+    padding: 12px;
+    margin: 3px;
 }
 
 
